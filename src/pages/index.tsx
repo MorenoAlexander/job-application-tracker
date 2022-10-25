@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import { signIn, signOut, useSession } from "next-auth/react";
 import Head from "next/head";
-import MainLayout from "../../components/layouts/MainLayout";
+import MainLayout from "../components/layouts/MainLayout";
 import { trpc } from "../utils/trpc";
 
 const Home: NextPage = () => {

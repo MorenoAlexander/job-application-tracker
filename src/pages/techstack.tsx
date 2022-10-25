@@ -3,7 +3,7 @@ import { signIn, signOut, useSession } from "next-auth/react";
 import { NextPage } from "next";
 import Head from "next/head";
 import React from "react";
-import TechnologyCard from "../../components/TechnologyCard";
+import TechnologyCard from "../components/TechnologyCard";
 import { trpc } from "../utils/trpc";
 
 const TechStack: NextPage = () => {
